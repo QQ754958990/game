@@ -38,7 +38,7 @@ export class Plane extends Move {
 
         //获取飞机图片实例
         const plan_element = new Image();
-        plan_element.src = '/src/img/plane.png';
+        plan_element.src = './src/img/plane.png';
         plan_element.onload = function () {
             def.resolve(plan_element)
         };

@@ -38,7 +38,7 @@ export class Monster extends Move {
 
         //获取图片实例
         const monster_element = new Image();
-        monster_element.src = '/src/img/enemy.png';
+        monster_element.src = './src/img/enemy.png';
         monster_element.onload = function () {
             def.resolve(monster_element)
         };

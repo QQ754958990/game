@@ -222,7 +222,7 @@ class GAME extends Canvas {
 
 
         const fry_element = new Image();//获取爆炸图片实例
-        fry_element.src = '/src/img/boom.png';//爆炸图片
+        fry_element.src = './src/img/boom.png';//爆炸图片
 
 
         fry_element.onload = function () {
